@@ -1,3 +1,4 @@
+// Exercise 1
 const raining = false;
 const cold = false;
 const temperature = 12;
@@ -37,3 +38,27 @@ else {
 }
 
 console.log("Now you're ready to go outside!")
+
+
+
+// Exercise 2
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+}
+
+
+
+// Exercise 3
+if (temperature < -40 || temperature > 40) {
+  console.l0g("Maybe going outside isn't such a great idea...");
+}
+
+
+
+// Exercise 4
+if (!raining) {
+  console.log("Leave your umbrella at home!");
+}
